@@ -2,18 +2,22 @@
 layout: default
 title: Eloquent Coding - Contact
 ---
-<section class="two-blocks">
-  <div>
-    <p>Toutes questions contactez nous à</p>
-    <address>eloquentcoding [at] mailup.net</address>
-  <div>
-  <div>
+<section>
     {% highlight ruby %}
-    def foo
-      puts 'foo'
+    class EloquentCoding
+      def self.mail
+        'eloquentcoding@mailup.net'
+      end
+
+      def self.city
+        'Paris'
+      end
+
+      def self.country
+        'France'
+      end
     end
     {% endhighlight %}
-  </div>
 </section>
 
 
