@@ -20,18 +20,40 @@ header nav ul li {
 div.container {
 }
 
-section.disclaimer {
+section div {
+  float: left;
+  padding: .5em;
+}
+
+section.three-blocks div {
+  width: 30%;
+}
+
+section.two-blocks div {
+  width: 48%;
+}
+
+section.small-big div {
+  width: 20%;
+}
+
+section.small-big div:last-child {
+  width: 75%;
+}
+
+.disclaimer {
   background-color: #e5e5e5;
   font-size: 150%;
 }
 
-section.three div {
-  float: left;
-  width: 30%;
-  padding: .5em;
+.photo img {
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 4px #000000;
+  margin-top: 1.2em;
+  width: 150px;
 }
 
-span#ec-logo {
+#logo {
   margin-top: -5em;
   padding: 1em 0.8em 0.5em 0.8em;
   background: url('../img/megaphone.jpg') no-repeat center;
