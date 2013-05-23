@@ -1,4 +1,1 @@
-eloquent-coding.github.io
-=========================
-
-Eloquent Coding public site
+Site at http://eloquent-coding.github.io
